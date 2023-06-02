@@ -1,7 +1,6 @@
 {
   "type": "module",
   "scripts": {
-    "compile-assets": "cd ./assets-compiler && node --loader ../ts-loader.js ./index.ts",
     "start": "node --loader ./ts-loader.js index.ts",
     "rollup": "(cd ../ff-worker && npm run start)",
     "start-rollup": "npm run rollup && npm run start page.useGenWorkers=true",
