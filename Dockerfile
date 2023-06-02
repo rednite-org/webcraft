@@ -9,12 +9,14 @@ RUN apk add --no-cache git wget fontconfig
 RUN mkdir -p \
     /app/webcraft \
     /app/webcraft/node_server \
-    /app/webcraft/ff-worker
+    /app/webcraft/ff-worker \
+    /app/webcraft/packages/assets-compiler
 
 # Copy package.json files
 COPY package.json /app/webcraft/package.json
 COPY node_server/package.json /app/webcraft/node_server/package.json
 COPY ff-worker/package.json /app/webcraft/ff-worker/package.json 
+COPY packages/assets-compiler/package.json /app/webcraft/packages/assets-compiler/package.json
 
 # Install all dependencies
 # TODO: Use npm ci instead of npm install after removing package-lock from .gitignore 
@@ -23,6 +25,8 @@ RUN cd /app/webcraft && \
     cd /app/webcraft/node_server && \
     npm install && \
     cd /app/webcraft/ff-worker && \
+    npm install && \
+    cd /app/webcraft/packages/assets-compiler && \
     npm install
 
 # Download resourcepacks
@@ -41,8 +45,8 @@ RUN mkdir -p /app/music && \
     cp /app/webcraft/doc/examples/music.json /app/music/music.json
 
 # Compile assets
-RUN cd /app/webcraft/node_server && \
-    npm run compile-assets
+RUN cd /app/webcraft/packages/assets-compiler && \
+    npm run start
 
 # Compile typescript
 RUN cd /app/webcraft && \
