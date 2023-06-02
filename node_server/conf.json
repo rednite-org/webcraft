@@ -1,6 +1,6 @@
 {
     "AppVersion": "0.0.3",
-    "AppCode": "madcraft",
+    "AppCode": "shkolakola",
     "ServerIP": "0.0.0.0",
     "Port": 5700,
     "Addr": ":5700",
@@ -8,7 +8,7 @@
     "ApiKey": "eeb5694b9bb20fc43ff234438ad26e34",
     "APIDomain": "http://api.madcraft.loc/",
     "DomainURL": "https://madcraft.io",
-    "ProjectName": "Madcraft",
+    "ProjectName": "Shkolakola",
     "UseSecureProtocol": false,
     "SSLCertFile": "/var/ssl/auth/fullchain.pem",
     "SSLKeyFile": "/var/ssl/auth/privkey.pem",
