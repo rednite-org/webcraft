@@ -1525,6 +1525,11 @@ export class BLOCK {
             if(b.armor) {
                 b.tags.push(BLOCK_GROUP_TAG.COMBAT)
             }
+
+            // letters
+            if (b.name.startsWith('LETTER')) {
+                b.tags.push(BLOCK_GROUP_TAG.LETTERS)
+            }
         }
 
         // misc

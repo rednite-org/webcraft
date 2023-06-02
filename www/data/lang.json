@@ -218,6 +218,7 @@
         "tag_food": {"en": "food", "ru": "еда", "fr": "nourriture", "es": "comida", "man": "食物"},
         "tag_furniture": {"en": "furniture", "ru": "мебель", "fr": "meubles", "es": "muebles", "man": "家具"},
         "tag_lightning": {"en": "lightning", "ru": "освещение", "fr": "éclairage", "es": "iluminación", "man": "照明"},
+        "tag_letters": {"en": "letters", "ru": "буквы", "fr": "", "es": "", "man": ""},
         "tag_misc": {"en": "misc", "ru": "разное", "fr": "divers", "es": "miscelánea", "man": "杂项"},
         "tag_plant": {"en": "plant", "ru": "растения", "fr": "plante", "es": "planta", "man": "植物"},
         "tag_tools": {"en": "tools", "ru": "инструменты", "fr": "outils", "es": "herramientas", "man": "工具"},

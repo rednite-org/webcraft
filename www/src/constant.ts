@@ -140,6 +140,7 @@ export const BLOCK_GROUP_TAG = {
     MISC:       "#misc",
     PLANT:      "#plant",
     TOOLS:      "#tools",
+    LETTERS:    "#letters",
 }
 
 export const UI_THEME = {
