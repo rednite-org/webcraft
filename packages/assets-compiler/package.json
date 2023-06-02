@@ -1,0 +1,15 @@
+{
+  "name": "assets-compiler",
+  "type": "module",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "skia-canvas": "^1.0.1"
+  },
+  "devDependencies": {
+    "tsx": "^3.12.7"
+  }
+}

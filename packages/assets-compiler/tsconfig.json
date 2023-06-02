@@ -1,0 +1,34 @@
+{
+    "type": "module",
+    "extends": "../../tsconfig.json",
+    "compilerOptions": {
+        "target": "es2022",
+        "module": "esnext",
+        "ignoreDeprecations": "5.0",
+        "moduleResolution": "node",
+        "resolveJsonModule": true,
+        "allowSyntheticDefaultImports": true,
+        // "emitDeclarationOnly": true
+
+        "baseUrl": "./" ,
+        "paths": {
+            "@client/*": ["../../www/src/*"],
+            "@vendors/*": ["../../www/vendors/*"]
+        },
+        "skipLibCheck": true
+    },
+    "include": [
+        "./**/*"
+    ],
+    "exclude": [
+        "../data/building_schema/*.ts",
+        "./test.ts",
+        "./test/test_ArrayHelpers.ts",
+    ],
+    // other settings...
+    "ts-node": {
+        "esm": true,
+        "experimentalSpecifierResolution": "node",
+        "swc": true
+    }
+}
