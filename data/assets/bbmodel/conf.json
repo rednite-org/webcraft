@@ -2062,6 +2062,282 @@
                     {"name": "off", "when": {"extra_data.powered": false}}
                 ]
             }
-        }
+        },
+
+
+        {
+            "id": 10100,
+            "name": "LETTER",
+            "material": {
+                "id": "stone"
+            },
+            "bb": {
+                "model": "custom/letter",
+                "import_anyway": true,
+                "select_texture": [
+                    {"name": "%block_name%"}
+                ]
+            }
+        },
+        {
+            "id": 10101,
+            "name": "LETTER_A",
+            "material": {
+                "id": "stone"
+            },
+            "bb": {
+                "extends": "LETTER"  
+            }
+        },
+        {
+            "id": 10102,
+            "name": "LETTER_B",
+            "material": {
+                "id": "stone"
+            },
+            "bb": {
+                "extends": "LETTER"  
+            }
+        },
+        {
+            "id": 10103,
+            "name": "LETTER_C",
+            "material": {
+                "id": "stone"
+            },
+            "bb": {
+                "extends": "LETTER"  
+            }
+        },
+        {
+            "id": 10104,
+            "name": "LETTER_D",
+            "material": {
+                "id": "stone"
+            },
+            "bb": {
+                "extends": "LETTER"  
+            }
+        },
+        {
+            "id": 10105,
+            "name": "LETTER_E",
+            "material": {
+                "id": "stone"
+            },
+            "bb": {
+                "extends": "LETTER"  
+            }
+        },
+        {
+            "id": 10106,
+            "name": "LETTER_F",
+            "material": {
+                "id": "stone"
+            },
+            "bb": {
+                "extends": "LETTER"  
+            }
+        },
+        {
+            "id": 10107,
+            "name": "LETTER_G",
+            "material": {
+                "id": "stone"
+            },
+            "bb": {
+                "extends": "LETTER"  
+            }
+        },
+        {
+            "id": 10108,
+            "name": "LETTER_H",
+            "material": {
+                "id": "stone"
+            },
+            "bb": {
+                "extends": "LETTER"  
+            }
+        },
+        {
+            "id": 10109,
+            "name": "LETTER_I",
+            "material": {
+                "id": "stone"
+            },
+            "bb": {
+                "extends": "LETTER"  
+            }
+        },
+        {
+            "id": 10110,
+            "name": "LETTER_J",
+            "material": {
+                "id": "stone"
+            },
+            "bb": {
+                "extends": "LETTER"  
+            }
+        },
+        {
+            "id": 10111,
+            "name": "LETTER_K",
+            "material": {
+                "id": "stone"
+            },
+            "bb": {
+                "extends": "LETTER"  
+            }
+        },
+        {
+            "id": 10112,
+            "name": "LETTER_L",
+            "material": {
+                "id": "stone"
+            },
+            "bb": {
+                "extends": "LETTER"  
+            }
+        },
+        {
+            "id": 10113,
+            "name": "LETTER_M",
+            "material": {
+                "id": "stone"
+            },
+            "bb": {
+                "extends": "LETTER"  
+            }
+        },
+        {
+            "id": 10114,
+            "name": "LETTER_N",
+            "material": {
+                "id": "stone"
+            },
+            "bb": {
+                "extends": "LETTER"  
+            }
+        },
+        {
+            "id": 10115,
+            "name": "LETTER_O",
+            "material": {
+                "id": "stone"
+            },
+            "bb": {
+                "extends": "LETTER"  
+            }
+        },
+        {
+            "id": 10116,
+            "name": "LETTER_P",
+            "material": {
+                "id": "stone"
+            },
+            "bb": {
+                "extends": "LETTER"  
+            }
+        },
+        {
+            "id": 10117,
+            "name": "LETTER_Q",
+            "material": {
+                "id": "stone"
+            },
+            "bb": {
+                "extends": "LETTER"  
+            }
+        },
+        {
+            "id": 10118,
+            "name": "LETTER_R",
+            "material": {
+                "id": "stone"
+            },
+            "bb": {
+                "extends": "LETTER"  
+            }
+        },
+        {
+            "id": 10119,
+            "name": "LETTER_S",
+            "material": {
+                "id": "stone"
+            },
+            "bb": {
+                "extends": "LETTER"  
+            }
+        },
+        {
+            "id": 10120,
+            "name": "LETTER_T",
+            "material": {
+                "id": "stone"
+            },
+            "bb": {
+                "extends": "LETTER"  
+            }
+        },
+        {
+            "id": 10121,
+            "name": "LETTER_U",
+            "material": {
+                "id": "stone"
+            },
+            "bb": {
+                "extends": "LETTER"  
+            }
+        },
+        {
+            "id": 10122,
+            "name": "LETTER_V",
+            "material": {
+                "id": "stone"
+            },
+            "bb": {
+                "extends": "LETTER"  
+            }
+        },
+        {
+            "id": 10123,
+            "name": "LETTER_W",
+            "material": {
+                "id": "stone"
+            },
+            "bb": {
+                "extends": "LETTER"  
+            }
+        },
+        {
+            "id": 10124,
+            "name": "LETTER_X",
+            "material": {
+                "id": "stone"
+            },
+            "bb": {
+                "extends": "LETTER"  
+            }
+        },
+        {
+            "id": 10125,
+            "name": "LETTER_Y",
+            "material": {
+                "id": "stone"
+            },
+            "bb": {
+                "extends": "LETTER"  
+            }
+        },
+        {
+            "id": 10126,
+            "name": "LETTER_Z",
+            "material": {
+                "id": "stone"
+            },
+            "bb": {
+                "extends": "LETTER"  
+            }
+        }        
     ]
 }
