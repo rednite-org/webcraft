@@ -254,6 +254,7 @@ export class ServerChat {
                         '/gamemode [world] (survival | creative | adventure | spectator | get)',
                         '/tp ([@<teleported_username>] @<target_username> | <place_name> | <x> <y> <z>) -> teleport',
                         '/stp -> safe teleport, same arguments as /tp',
+                        '/tpall -> tp all players to command executor',
                         '/spawnpoint',
                         '/seed',
                         '/give <item> [<count>]',
@@ -322,6 +323,22 @@ export class ServerChat {
                     this.sendSystemChatMessageToSelectedPlayers('!langThe game is already in the process of shutting down.', player)
                 }
                 break
+            }
+            case '/tpall': {
+                checkIsAdmin()
+
+                const commandExecutor = player;
+
+                for (const [_userId, player] of this.world.players.all()) {
+                    if (player.session.username === commandExecutor.session.username) {
+                        continue;
+                    }
+                    
+                    this.sendSystemChatMessageToSelectedPlayers(`${player.session.username} teleported.`, commandExecutor);
+                    player.teleport({p2p: {from: player.session.username, to: commandExecutor.session.username}, pos: null, safe: false});
+                }
+
+                break;
             }
             case '/resetinventory': {
                 checkIsAdmin()
