@@ -24,7 +24,6 @@
     "nodemon": "^2.0.20",
     "semver": "^7.3.7",
     "simplex-noise": "^3.0.1",
-    "skia-canvas": "^0.9.30",
     "sqlite": "^4.0.23",
     "sqlite3": "^5.0.8",
     "uuid": "^8.3.2",

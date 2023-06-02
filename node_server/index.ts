@@ -17,7 +17,6 @@ import fileUpload from "express-fileupload";
 import { renderFile } from "ejs";
 
 import { Buffer } from 'node:buffer';
-import skiaCanvas from 'skia-canvas';
 
 // Check version of modules
 const required_versions = {
@@ -79,7 +78,6 @@ Config.init().then(async (config) => {
     globalAny.Worker           = Worker;
     globalAny.fs               = fs;
     globalAny.Buffer          = Buffer;
-    globalAny.skiaCanvas      = skiaCanvas;
     globalAny.mkdirp          = mkdirp;
     globalAny.plugins          = new PluginManager(globalAny.config);
     globalAny.Qubatch          = new ServerGame();
