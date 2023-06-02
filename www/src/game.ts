@@ -639,6 +639,13 @@ export class GameClass {
                         }
                         return true;
                     }
+                    // H (Execute /tpall command)
+                    case KEY.H: {
+                        if(!e.down) {
+                            this.player.chat.sendMessage('/tpall');
+                        }
+                        return true;
+                    }
                     case KEY.ENTER: {
                         if(e.down && !e.first) { // !e.first is needed if we keep pressing ENTER after the chat is closed
                             if(!player.chat.active) {

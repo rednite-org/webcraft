@@ -490,6 +490,7 @@ export const KEY = {
     E: 69,
     G: 71,
     Q: 81,
+    H: 72,
     R: 82,
     S: 83,
     T: 84,
