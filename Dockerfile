@@ -53,6 +53,9 @@ RUN cd /app/webcraft && \
 RUN cd /app/webcraft/ff-worker && \
     npm run start
 
+# Temporary fix for "array size is abnormally" 
+RUN sed -i 's/0xffffff/0xfffffff/g' /app/webcraft/node_server/node_modules/protodef/src/datatypes/compiler-structures.js
+
 WORKDIR /app/webcraft/node_server
 
 CMD npm run start
