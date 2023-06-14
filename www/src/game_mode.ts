@@ -89,6 +89,10 @@ export class GameMode {
         return GameMode.byId[game_mode_id]
     }
 
+    getByIndex(index: number) : GameModeData | undefined {
+        return GameMode.byIndex[index]
+    }
+
     // Игрок может получить урон
     mayGetDamaged(): boolean {
         return this.current.can_take_damage

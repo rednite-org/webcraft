@@ -8,6 +8,7 @@ import type { WorldTickStat } from "./world/tick_stat.js";
 import type { ServerPlayer } from "./server_player.js";
 import { BLOCK_FLAG, DEFAULT_MOB_TEXTURE_NAME } from "@client/constant.js";
 import {EnumDamage} from "@client/enums/enum_damage.js";
+import type { GameModeData } from "@client/game_mode.js";
 
 const MAX_LINE_LENGTH = 100 // TODO based on the cleint's screen size
 
@@ -266,6 +267,7 @@ export class ServerChat {
                 this.sendSystemChatMessageToSelectedPlayers('!lang\n' + commands.join('\n'), player);
                 break;
             }
+            case '/gm':
             case '/gamemode':
                 if(!this.world.admins.checkIsAdmin(player)) {
                     throw 'error_not_permitted';
@@ -277,16 +279,32 @@ export class ServerChat {
                 const target = args.length == 3 ? args[1] : '';
                 let game_mode_id = args[args.length - 1].toLowerCase();
                 if (game_mode_id != 'get') {
-                    const mode = player.game_mode.getById(game_mode_id);
-                    if (mode == null) {
+                    let mode: GameModeData;
+
+                    if (game_mode_id.length === 1) {
+                        mode = player.game_mode.getByIndex(game_mode_id);
+                    } else {
+                        mode = player.game_mode.getById(game_mode_id);
+                    }
+
+                    if (!mode) {
                         throw 'Invalid game mode';
                     }
+
                     if (target == '') {
-                        player.game_mode.applyMode(game_mode_id, true);
+                        player.game_mode.applyMode(mode.id, true);
                     } else if (target == 'world') {
-                        this.world.info.game_mode = game_mode_id;
-                        await this.world.db.setWorldGameMode(this.world.info.guid, game_mode_id);
+                        this.world.info.game_mode = mode.id;
+                        await this.world.db.setWorldGameMode(this.world.info.guid, mode.id);
                         this.sendSystemChatMessageToSelectedPlayers('Done', player);
+                    } else if (target.startsWith('@')) {
+                        const player = this.world.players.getByName(target);
+
+                        if (!player) {
+                            throw 'Player not found';
+                        }
+
+                        player.game_mode.applyMode(mode.id, true);
                     } else {
                         throw 'Invalid target';
                     }
