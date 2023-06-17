@@ -18,6 +18,7 @@ declare type scalar = number | string | boolean
 declare type tupleFloat6 = [number, number, number, number, number, number]
 declare type tupleFloat4 = [number, number, number, number]
 declare type tupleFloat3 = [number, number, number]
+declare type tupleInt3 = [int, int, int]
 declare type tupleFloat2 = [number, number]
 type ConcatTuple<T1 extends unknown[], T2 extends unknown[]> = [...T1, ...T2]
 
@@ -433,6 +434,8 @@ interface IBlockMaterial {
     drop_if_unlinked: boolean
     visible_for_ao: boolean
     interact_water: boolean
+    hide_in_creative: boolean
+    can_replace: any
     //
     coocked_item: { count: number, name: string }
     fuel_time: number

@@ -23,7 +23,7 @@ import type { WebGLTexture } from "./renders/webgl/index.js";
 
 const CHUNKS_ADD_PER_UPDATE     = 8;
 export const GROUPS_TRANSPARENT = ['transparent', 'doubleface_transparent'];
-export const GROUPS_NO_TRANSPARENT = ['regular', 'doubleface', 'decal1', 'decal2'];
+export const GROUPS_NO_TRANSPARENT = ['regular', 'creative_regular', 'doubleface', 'decal1', 'decal2']
 
 const tmpAddr = new Vector()
 let billboard_tex_compiler : FastCompiller
@@ -119,7 +119,7 @@ export class ChunkManager {
     timer60fps = 0;
 
     chunk_modifiers = new VectorCollector();
-    groundLevelEastimtion: number | null = null;
+    groundLevelEstimation: number | null = null;
     rendered_chunks        = {fact: 0, total: 0};
     DUMMY: any;
     AIR: any;
@@ -435,7 +435,7 @@ export class ChunkManager {
                     break;
                 }
                 case 'ground_level_estimated': {
-                    that.groundLevelEastimtion = args;
+                    that.groundLevelEstimation = args;
                     break;
                 }
             }
