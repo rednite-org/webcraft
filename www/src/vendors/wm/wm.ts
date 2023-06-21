@@ -7,7 +7,7 @@ import * as VAUX from 'vauxcel';
 import {Style} from "./styles.js";
 
 import { msdf } from "../../../data/font.js";
-import {MyText} from "./MySpriteRenderer.js";
+import {MyGraphics, MyText} from "./MySpriteRenderer.js";
 import { BLOCK } from "../../blocks.js";
 import { Lang } from "../../lang.js";
 import { Resources } from "../../resources.js";
@@ -42,7 +42,7 @@ export type TMouseEvent = TMouseMoveEvent & {
     drag        : Pointer
 }
 
-export class Graphics extends VAUX.Graphics {
+export class Graphics extends MyGraphics {
     [key: string]: any;
 
     constructor(id? : any) {
@@ -66,7 +66,7 @@ export class GradientGraphics {
      */
     static createVertical(from, to, height = 256) {
         const gradient = GradientGraphics._createVerticalGradient(from, to, height)
-        const graphics = new VAUX.Graphics()
+        const graphics = new MyGraphics()
         graphics.clear()
         graphics.beginTextureFill(gradient)
         // hud_graphics.beginFill(0x00ffff)
@@ -1746,7 +1746,7 @@ export class WindowManager extends Window {
 
     loadFont() {
         const baseRp = Qubatch.world.block_manager.resource_pack_manager.list.get('base');
-        const res = new VAUX.ImageBitmapResource(baseRp.textures.get('alphabet').texture.source);
+        const res = new VAUX.ImageBitmapResource(baseRp.textures.get('alphabet').texture.resource.source);
         this.bfTextures[0].baseTexture.setResource(res);
     }
 
