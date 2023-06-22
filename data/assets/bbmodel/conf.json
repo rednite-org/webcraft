@@ -860,12 +860,7 @@
             "bb": {
                 "model": "brown_mushroom",
                 "rotate": [
-                    {
-                        "type": "random",
-                        "axes": [
-                            "y"
-                        ]
-                    }
+                    {"type": "random", "axes": ["y"]}
                 ]
             }
         },
@@ -1929,12 +1924,7 @@
             "bb": {
                 "model": "sweet_berry_bush",
                 "rotate": [
-                    {
-                        "type": "random",
-                        "axes": [
-                            "y"
-                        ]
-                    }
+                    {"type": "random", "axes": ["y"]}
                 ]
             }
         },
@@ -2003,12 +1993,7 @@
             "bb": {
                 "model": "fern",
                 "rotate": [
-                    {
-                        "type": "random",
-                        "axes": [
-                            "y"
-                        ]
-                    }
+                    {"type": "random", "axes": ["y"]}
                 ],
                 "set_state": [
                     {
@@ -2026,12 +2011,7 @@
             "bb": {
                 "model": "burdock",
                 "rotate": [
-                    {
-                        "type": "random",
-                        "axes": [
-                            "y"
-                        ]
-                    }
+                    {"type": "random", "axes": ["y"]}
                 ],
                 "set_state": [
                     {
@@ -2049,12 +2029,7 @@
             "bb": {
                 "model": "wildflowers",
                 "rotate": [
-                    {
-                        "type": "random",
-                        "axes": [
-                            "y"
-                        ]
-                    }
+                    {"type": "random", "axes": ["y"]}
                 ],
                 "_set_state": [
                     {
