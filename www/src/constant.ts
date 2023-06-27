@@ -355,6 +355,10 @@ export enum WORKER_MESSAGE {
     SOUND_WORKER_FLOWING_DIFF = 'flowing_diff',
 }
 
+export enum PLAYER_FLAG {
+    SYSTEM_ADMIN = 256
+}
+
 // ======================== Network options =========================
 
 // If we receive packets older than this, terminate the connection
@@ -438,11 +442,8 @@ export const VOLUMETRIC_SOUND_ELLIPSOID_Y_RADIUS = 0.5
 // player
 export const PLAYER_ZOOM                    = 1;
 export const PLAYER_HEIGHT                  = 1.7 * PLAYER_ZOOM;
-export const PLAYER_WIDTH                   = 0.7 * PLAYER_ZOOM;
 export const PLAYER_PHYSICS_HALF_WIDTH      = 0.3 * PLAYER_ZOOM; // default playerHalfWidth was 0.3 in prismarine
 export const SNEAK_MINUS_Y_MUL              = 0.2 * PLAYER_ZOOM; // decrease player height to this percent value
-export const PLAYER_DIAMETER                = 0.7;
-export const PLAYER_RADIUS                  = PLAYER_DIAMETER / 2;
 export const MIN_HEIGHT_PLAY_SOUND          = .4
 export const MIN_STEP_PLAY_SOUND            = 1.6
 export const MOB_EYE_HEIGHT_PERCENT         = 1 - 1/16;
@@ -470,6 +471,9 @@ export const WORLD_TYPE_BUILDING_SCHEMAS    = 2;
 
 // attack
 export const ATTACK_COOLDOWN                = 500
+
+// demo media files
+export const DEMO_PATH                     = `../www/media/demo/`
 
 export const MOUSE = {
     DOWN: 1,

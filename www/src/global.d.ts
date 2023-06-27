@@ -183,6 +183,7 @@ interface IPlayerSharedProps {
 }
 
 declare type PlayerSession = {
+    flags       : int
     username    : string
     user_id     : int
     user_guid   : string
@@ -558,4 +559,14 @@ declare type IAddMeshArgs = {
     animation_name?:    string
     item_block?:        any
     matrix?:            imat4
+}
+
+declare type IEnterWorld = {
+    options: any,
+    world_guid: string
+    location: {
+        protocol: string,
+        hostname: string,
+        port?: string,
+    }
 }

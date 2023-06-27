@@ -231,9 +231,10 @@ export class MySpriteRenderer extends VAUX.BatchRenderer {
         const frame = element._texture._frame;
 
         const alpha = Math.min(element.worldAlpha, 1.0);
-        const argb = VAUX.Color.shared
-            .setValue(element._tintRGB)
-            .toPremultiplied(alpha, element._texture.baseTexture.alphaMode > 0);
+        // const argb = VAUX.Color.shared
+        //     .setValue(element._tintRGB)
+        //     .toPremultiplied(alpha, element._texture.baseTexture.alphaMode > 0);
+        const argb = element._tintRGB + (alpha * 255 << 24);
 
         // lets not worry about tint! for now..
         for (let i = 0; i < vertexData.length; i += 2) {
@@ -486,7 +487,7 @@ export class MyGraphics extends VAUX.Graphics {
     [key: string]: any;
     constructor() {
         super();
-        this.geometry.isBatchable = () => { return true };
+        (this.geometry as any).isBatchable = () => { return true };
         this.pluginName = 'mySprite';
     }
 }

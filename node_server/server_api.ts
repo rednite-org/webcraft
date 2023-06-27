@@ -4,8 +4,8 @@ import { WorldGenerators } from "./world/generators.js";
 import { Vector } from "@client/helpers.js";
 import {MonotonicUTCDate, TApiSyncTimeRequest, TApiSyncTimeResponse} from "@client/helpers/monotonic_utc_date.js";
 import type { DBGame } from "db/game.js";
-
-const FLAG_SYSTEM_ADMIN = 256;
+import Billboard from "player/billboard.js";
+import { PLAYER_FLAG } from "@client/constant.js";
 
 // JSON API
 export class ServerAPI {
@@ -53,7 +53,7 @@ export class ServerAPI {
                 // check admin rights for specific world
                 if([config.building_schemas_world_name].includes(params.title)) {
                     const session = await ServerAPI.getDb().GetPlayerSession(session_id)
-                    ServerAPI.requireSessionFlag(session, FLAG_SYSTEM_ADMIN)
+                    ServerAPI.requireSessionFlag(session, PLAYER_FLAG.SYSTEM_ADMIN)
                     params.game_mode = 'creative'
                     params.generator = { id: 'flat', options: {} }
                 }
@@ -89,6 +89,17 @@ export class ServerAPI {
                 Log.append('JoinWorld', {user_id: session.user_id, world_guid});
                 return world;
             }
+            case '/api/Game/EnterWorld': {
+                const args = params as IEnterWorld
+                const {location, world_guid} = args
+                const session    = await ServerAPI.getDb().GetPlayerSession(session_id)
+                const server_url = (location.protocol == 'https:' ? 'wss:' : 'ws:') +
+                    '//' + location.hostname +
+                    (location.port ? ':' + location.port : '') +
+                    '/ws'
+                Log.append('EnterWorld', {user_id: session.user_id, world_guid, server_url})
+                return {server_url, world_guid}
+            }
             case '/api/Game/MyWorlds': {
                 const session = await ServerAPI.getDb().GetPlayerSession(session_id);
                 const resp = await ServerAPI.getDb().MyWorlds(session.user_id);
@@ -106,7 +117,7 @@ export class ServerAPI {
             }
             case '/api/Game/Online': {
                 const session = await ServerAPI.getDb().GetPlayerSession(session_id);
-                ServerAPI.requireSessionFlag(session, FLAG_SYSTEM_ADMIN);
+                ServerAPI.requireSessionFlag(session, PLAYER_FLAG.SYSTEM_ADMIN);
                 const resp = {
                     dt_started: Qubatch.dt_started,
                     players_online: 0,
@@ -128,6 +139,31 @@ export class ServerAPI {
                     }
                 }
                 return resp;
+            }
+            case '/api/Game/Billboard': {
+                const session = await ServerAPI.getDb().GetPlayerSession(session_id)
+                if (req.files && session) {
+                    const path = `../www/upload/${session.user_id}/`
+                    if (!fs.existsSync(path)) {
+                        fs.mkdirSync(path, {recursive: true})
+                    }
+                    const name = req.files.file.name 
+                    const ext = name.substr(name.lastIndexOf('.'))
+                    const md5 = req.files.file.md5 // name = req.files.file.name.replace(/[^a-zа-я0-9\s\.\-_]/gi, '')
+                    const file = path + md5 + ext
+                    await req.files.file.mv(file)
+                    await req.files.preview.mv(path + md5 + '_' + ext)
+                    const files = await Billboard.getPlayerFiles(session.user_id)
+                    return {
+                        'result':'ok', 
+                        'files': files, 
+                        'last': {
+                            'file': md5 + ext,
+                            'demo': false
+                        }
+                    }
+                }
+                return {'result':'error'}
             }
             case '/api/Game/Screenshot': {
                 const session = await ServerAPI.getDb().GetPlayerSession(session_id);
@@ -212,7 +248,7 @@ export class ServerAPI {
             }
             case '/api/Skin/UpdateStatic': {
                 const session = await ServerAPI.getDb().GetPlayerSession(session_id);
-                ServerAPI.requireSessionFlag(session, FLAG_SYSTEM_ADMIN);
+                ServerAPI.requireSessionFlag(session, PLAYER_FLAG.SYSTEM_ADMIN);
                 return await ServerAPI.getDb().skins.updateStaticSkins();
             }
             default: {
