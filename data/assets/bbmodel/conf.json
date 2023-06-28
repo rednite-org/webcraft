@@ -5,380 +5,136 @@
     },
     "textures": {},
     "bbmodels": [
-        {
-            "name": "arm"
-        },
-        {
-            "name": "mob/pig"
-        },
-        {
-            "name": "mob/zombie"
-        },
-        {
-            "name": "mob/skeleton"
-        },
-        {
-            "name": "mob/cow"
-        },
-        {
-            "name": "mob/bee"
-        },
-        {
-            "name": "mob/zombie_bomber"
-        },
-        {
-            "name": "mob/chicken"
-        },
-        {
-            "name": "mob/humanoid"
-        },
-        {
-            "name": "mob/sheep"
-        },
-        {
-            "name": "mob/horse"
-        },
-        {
-            "name": "mob/fox"
-        },
-        {
-            "name": "mob/npc"
-        },
-        {
-            "name": "mob/deer"
-        },
-        {
-            "name": "mob/snowball"
-        },
-        {
-            "name": "mob/combat_dummy"
-        },
-        {
-            "name": "mob/snow_golem"
-        },
-        {
-            "name": "mechanism/cogwheel"
-        },
-        {
-            "name": "mechanism/windmill_bearing"
-        },
-        {
-            "name": "transport/boat"
-        },
-        {
-            "name": "transport/raft"
-        },
-        {
-            "name": "ladder"
-        },
-        {
-            "name": "torch"
-        },
-        {
-            "name": "fence"
-        },
-        {
-            "name": "pot"
-        },
-        {
-            "name": "stairs"
-        },
-        {
-            "name": "shulker"
-        },
-        {
-            "name": "chest"
-        },
-        {
-            "name": "anvil"
-        },
-        {
-            "name": "tnt"
-        },
-        {
-            "name": "chain"
-        },
-        {
-            "name": "sign"
-        },
-        {
-            "name": "lantern"
-        },
-        {
-            "name": "soul_lantern"
-        },
-        {
-            "name": "coal_ore"
-        },
-        {
-            "name": "copper_ore"
-        },
-        {
-            "name": "iron_ore"
-        },
-        {
-            "name": "diamond_ore"
-        },
-        {
-            "name": "redstone_ore"
-        },
-        {
-            "name": "gold_ore"
-        },
-        {
-            "name": "lapis_lazuli_ore"
-        },
-        {
-            "name": "emerald_ore"
-        },
-        {
-            "name": "poor_copper_ore"
-        },
-        {
-            "name": "poor_diamond_ore"
-        },
-        {
-            "name": "poor_emerald_ore"
-        },
-        {
-            "name": "poor_gold_ore"
-        },
-        {
-            "name": "poor_iron_ore"
-        },
-        {
-            "name": "poor_coal_ore"
-        },
-        {
-            "name": "carrot"
-        },
-        {
-            "name": "brown_mushroom"
-        },
-        {
-            "name": "red_mushroom"
-        },
-        {
-            "name": "cauldron"
-        },
-        {
-            "name": "bookshelf"
-        },
-        {
-            "name": "crafting_table"
-        },
-        {
-            "name": "barrel"
-        },
-        {
-            "name": "furnace"
-        },
-        {
-            "name": "dead_bush"
-        },
-        {
-            "name": "candle"
-        },
-        {
-            "name": "rail"
-        },
-        {
-            "name": "powered_rail"
-        },
-        {
-            "name": "iron_bars"
-        },
-        {
-            "name": "door",
-            "shift": {
-                "x": 7,
-                "y": 0,
-                "z": -7
-            }
-        },
-        {
-            "name": "beacon"
-        },
-        {
-            "name": "bee_nest"
-        },
-        {
-            "name": "jukebox"
-        },
-        {
-            "name": "enchanting_table"
-        },
-        {
-            "name": "lectern"
-        },
-        {
-            "name": "fence_gate"
-        },
-        {
-            "name": "bed"
-        },
-        {
-            "name": "chair"
-        },
-        {
-            "name": "stool"
-        },
-        {
-            "name": "cactus"
-        },
-        {
-            "name": "sweet_berry_bush"
-        },
-        {
-            "name": "cake"
-        },
-        {
-            "name": "ender_chest"
-        },
-        {
-            "name": "mob_spawn"
-        },
-        {
-            "name": "hay_block"
-        },
-        {
-            "name": "fern"
-        },
-        {
-            "name": "burdock"
-        },
-        {
-            "name": "wildflowers"
-        },
-        {
-            "name": "cattail"
-        },
-        {
-            "name": "reed"
-        },
-        {
-            "name": "sugar_cane"
-        },
-        {
-            "name": "bough"
-        },
-        {
-            "name": "dandelion"
-        },
-        {
-            "name": "poppy"
-        },
-        {
-            "name": "small_rock"
-        },
-        {
-            "name": "raw_copper"
-        },
-        {
-            "name": "raw_gold"
-        },
-        {
-            "name": "raw_iron"
-        },
-        {
-            "name": "gold_nugget"
-        },
-        {
-            "name": "iron_nugget"
-        },
-        {
-            "name": "copper_nugget"
-        },
-        {
-            "name": "small_cactus"
-        },
-        {
-            "name": "skull_desert"
-        },
-        {
-            "name": "sanded_stones"
-        },
-        {
-            "name": "small_stones_desert"
-        },
-        {
-            "name": "pinecones"
-        },
-        {
-            "name": "raw_titanium"
-        },
-        {
-            "name": "titanium_ingot"
-        },
-        {
-            "name": "titanium_nugget"
-        },
-        {
-            "name": "titanium_ore"
-        },
-        {
-            "name": "poor_titanium_ore"
-        },
-        {
-            "name": "amethyst_cluster"
-        },
-        {
-            "name": "brewing_stand"
-        },
-        {
-            "name": "pointed_dripstone"
-        },
-        {
-            "name": "lever"
-        },
-        {
-            "name": "tool/primitive_axe"
-        },
-        {
-            "name": "tool/sunglasses"
-        },
-        {
-            "name": "tool/axe"
-        },
-        {
-            "name": "tool/hoe"
-        },
-        {
-            "name": "tool/pickaxe"
-        },
-        {
-            "name": "tool/shovel"
-        },
-        {
-            "name": "tool/sword"
-        },
-        {
-            "name": "tool/backpack_basic"
-        },
-        {
-            "name": "tool/toolbelt_basic"
-        },
-        {
-            "name": "tool/industrial_axe"
-        },
-        {
-            "name": "tool/industrial_hoe"
-        },
-        {
-            "name": "tool/industrial_pickaxe"
-        },
-        {
-            "name": "tool/industrial_shovel"
-        },
-        {
-            "name": "tool/industrial_sword"
-        },
-        {
-            "name": "tool/mechanism_assembler"
-        },
-        {
-            "name": "armor/scrap_armor"
-        }
+        {"name": "arm"},
+
+        {"name": "mob/pig"},
+        {"name": "mob/zombie"},
+        {"name": "mob/skeleton"},
+        {"name": "mob/cow"},
+        {"name": "mob/bee"},
+        {"name": "mob/zombie_bomber"},
+        {"name": "mob/chicken"},
+        {"name": "mob/humanoid"},
+        {"name": "mob/sheep"},
+        {"name": "mob/horse"},
+        {"name": "mob/fox"},
+        {"name": "mob/npc"},
+        {"name": "mob/deer"},
+        {"name": "mob/snowball"},
+        {"name": "mob/combat_dummy"},
+        {"name": "mob/snow_golem"},
+
+        {"name": "mechanism/cogwheel"},
+        {"name": "mechanism/windmill_bearing"},
+
+        {"name": "transport/boat"},
+        {"name": "transport/raft"},
+
+        {"name": "ladder"},
+        {"name": "torch"},
+        {"name": "fence"},
+        {"name": "pot"},
+        {"name": "stairs"},
+        {"name": "shulker"},
+        {"name": "chest"},
+        {"name": "anvil"},
+        {"name": "tnt"},
+        {"name": "chain"},
+        {"name": "sign"},
+        {"name": "lantern"},
+        {"name": "soul_lantern"},
+        {"name": "coal_ore"},
+        {"name": "copper_ore"},
+        {"name": "iron_ore"},
+        {"name": "diamond_ore"},
+        {"name": "redstone_ore"},
+        {"name": "gold_ore"},
+        {"name": "lapis_lazuli_ore"},
+        {"name": "emerald_ore"},
+        {"name": "poor_copper_ore"},
+        {"name": "poor_diamond_ore"},
+        {"name": "poor_emerald_ore"},
+        {"name": "poor_gold_ore"},
+        {"name": "poor_iron_ore"},
+        {"name": "poor_coal_ore"},
+        {"name": "carrot"},
+        {"name": "brown_mushroom"},
+        {"name": "red_mushroom"},
+        {"name": "cauldron"},
+        {"name": "bookshelf"},
+        {"name": "crafting_table"},
+        {"name": "barrel"},
+        {"name": "furnace"},
+        {"name": "dead_bush"},
+        {"name": "candle"},
+        {"name": "rail"},
+        {"name": "powered_rail"},
+        {"name": "iron_bars"},
+        {"name": "door", "shift": {"x": 7, "y": 0, "z": -7}},
+        {"name": "beacon"},
+        {"name": "bee_nest"},
+        {"name": "jukebox"},
+        {"name": "enchanting_table"},
+        {"name": "lectern"},
+        {"name": "fence_gate"},
+        {"name": "bed"},
+        {"name": "chair"},
+        {"name": "stool"},
+        {"name": "cactus"},
+        {"name": "sweet_berry_bush"},
+        {"name": "cake"},
+        {"name": "ender_chest"},
+        {"name": "mob_spawn"},
+        {"name": "hay_block"},
+        {"name": "fern"},
+        {"name": "burdock"},
+        {"name": "wildflowers"},
+        {"name": "cattail"},
+        {"name": "reed"},
+        {"name": "sugar_cane"},
+        {"name": "bough"},
+        {"name": "dandelion"},
+        {"name": "poppy"},
+        {"name": "small_rock"},
+        {"name": "raw_copper"},
+        {"name": "raw_gold"},
+        {"name": "raw_iron"},
+        {"name": "gold_nugget"},
+        {"name": "iron_nugget"},
+        {"name": "copper_nugget"},
+        {"name": "small_cactus"},
+        {"name": "skull_desert"},
+        {"name": "sanded_stones"},
+        {"name": "small_stones_desert"},
+        {"name": "pinecones"},
+        {"name": "raw_titanium"},
+        {"name": "titanium_ingot"},
+        {"name": "titanium_nugget"},
+        {"name": "titanium_ore"},
+        {"name": "poor_titanium_ore"},
+        {"name": "amethyst_cluster"},
+        {"name": "brewing_stand"},
+        {"name": "pointed_dripstone"},
+        {"name": "lever"},
+
+        {"name": "tool/primitive_axe"},
+        {"name": "tool/sunglasses"},
+        {"name": "tool/axe"},
+        {"name": "tool/hoe"},
+        {"name": "tool/pickaxe"},
+        {"name": "tool/shovel"},
+        {"name": "tool/sword"},
+        {"name": "tool/backpack_basic"},
+        {"name": "tool/toolbelt_basic"},
+        {"name": "tool/industrial_axe"},
+        {"name": "tool/industrial_hoe"},
+        {"name": "tool/industrial_pickaxe"},
+        {"name": "tool/industrial_shovel"},
+        {"name": "tool/industrial_sword"},
+        {"name": "tool/mechanism_assembler"},
+
+        {"name": "armor/scrap_armor"}
+
     ],
     "blocks": [
         {
@@ -389,50 +145,14 @@
             "bb": {
                 "model": "torch",
                 "aabb_stylename": "torch",
-                "rotate": {
-                    "type": "cardinal_direction",
-                    "when": {
-                        "state": "wall"
-                    }
-                },
+                "rotate": {"type": "cardinal_direction", "when": {"state": "wall"}},
                 "set_state": [
-                    {
-                        "name": "wall",
-                        "when": {
-                            "rotate.y": 0
-                        }
-                    },
-                    {
-                        "name": "floor"
-                    }
+                    {"name": "wall", "when": {"rotate.y": 0}},
+                    {"name": "floor"}
                 ],
                 "_particles": [
-                    {
-                        "type": "torch_flame",
-                        "when": {
-                            "state": "floor"
-                        },
-                        "pos": [
-                            {
-                                "x": 0.5,
-                                "y": 0.75,
-                                "z": 0.5
-                            }
-                        ]
-                    },
-                    {
-                        "type": "torch_flame",
-                        "when": {
-                            "state": "wall"
-                        },
-                        "pos": [
-                            {
-                                "x": 0.5,
-                                "y": 0.75,
-                                "z": 0.25
-                            }
-                        ]
-                    }
+                    {"type": "torch_flame", "when": {"state": "floor"}, "pos": [{"x": 0.5, "y": 0.75, "z": 0.5}]},
+                    {"type": "torch_flame", "when": {"state": "wall"}, "pos": [{"x": 0.5, "y": 0.75, "z": 0.25}]}
                 ]
             }
         },
@@ -523,9 +243,7 @@
             "bb": {
                 "model": "stairs",
                 "behavior": "stairs",
-                "_rotate": {
-                    "type": "cardinal_direction"
-                }
+                "_rotate": {"type": "cardinal_direction"}
             }
         },
         {
@@ -535,9 +253,7 @@
             "bb": {
                 "model": "chest",
                 "behavior": "chest",
-                "rotate": {
-                    "type": "cardinal_direction"
-                },
+                "rotate": {"type": "cardinal_direction"},
                 "_animated": {
                     "name": "idle"
                 }
@@ -561,9 +277,7 @@
             "bb": {
                 "model": "shulker",
                 "behavior": "shulker",
-                "rotate": {
-                    "type": "six"
-                }
+                "rotate": {"type": "six"}
             },
             "tags": [
                 "store_items_in_chest"
@@ -575,9 +289,7 @@
             "bb": {
                 "model": "anvil",
                 "behavior": "anvil",
-                "rotate": {
-                    "type": "cardinal_direction"
-                }
+                "rotate": {"type": "cardinal_direction"}
             }
         },
         {
@@ -595,9 +307,7 @@
             "bb": {
                 "model": "ladder",
                 "behavior": "ladder",
-                "rotate": {
-                    "type": "cardinal_direction"
-                }
+                "rotate": {"type": "cardinal_direction"}
             }
         },
         {
@@ -606,9 +316,7 @@
             "bb": {
                 "model": "chain",
                 "behavior": "chain",
-                "rotate": {
-                    "type": "three"
-                }
+                "rotate": {"type": "three"}
             }
         },
         {
@@ -618,68 +326,19 @@
                 "model": "sign",
                 "aabb_stylename": "sign",
                 "set_state": [
-                    {
-                        "name": "wall",
-                        "when": {
-                            "rotate.y": 0
-                        }
-                    },
-                    {
-                        "name": "hanging",
-                        "when": {
-                            "rotate.y": -1,
-                            "sign:samerot": true
-                        }
-                    },
-                    {
-                        "name": "hanging2",
-                        "when": {
-                            "rotate.y": -1,
-                            "neighbour.up.material.is_solid": false
-                        }
-                    },
-                    {
-                        "name": "hanging",
-                        "when": {
-                            "rotate.y": -1,
-                            "neighbour.up.material.is_solid": true
-                        }
-                    },
-                    {
-                        "name": "wall2",
-                        "when": {
-                            "rotate.y": -2
-                        }
-                    },
-                    {
-                        "name": "floor"
-                    }
+                    {"name": "wall", "when": {"rotate.y": 0}},
+                    {"name": "hanging", "when": {"rotate.y": -1, "sign:samerot": true}},
+                    {"name": "hanging2", "when": {"rotate.y": -1, "neighbour.up.material.is_solid": false}},
+                    {"name": "hanging", "when": {"rotate.y": -1, "neighbour.up.material.is_solid": true}},
+                    {"name": "wall2", "when": {"rotate.y": -2}},
+                    {"name": "floor"}
                 ],
                 "select_texture": [
-                    {
-                        "name": "%block_name%"
-                    }
+                    {"name": "%block_name%"}
                 ],
                 "rotate": [
-                    {
-                        "type": "cardinal_direction",
-                        "when": {
-                            "state": [
-                                "wall",
-                                "wall2"
-                            ]
-                        }
-                    },
-                    {
-                        "type": "y360",
-                        "when": {
-                            "state": [
-                                "floor",
-                                "hanging",
-                                "hanging2"
-                            ]
-                        }
-                    }
+                    {"type": "cardinal_direction", "when": {"state": ["wall", "wall2"]}},
+                    {"type": "y360", "when": {"state": ["floor", "hanging", "hanging2"]}}
                 ]
             }
         },
@@ -725,15 +384,8 @@
                 "model": "lantern",
                 "aabb_stylename": "lantern",
                 "set_state": [
-                    {
-                        "name": "ceil",
-                        "when": {
-                            "rotate.y": -1
-                        }
-                    },
-                    {
-                        "name": "floor"
-                    }
+                    {"name": "ceil", "when": {"rotate.y": -1}},
+                    {"name": "floor"}
                 ]
             }
         },
@@ -837,26 +489,14 @@
                 "behavior": "age",
                 "aabb_stylename": "planting",
                 "rotate": [
-                    {
-                        "type": "random",
-                        "axes": [
-                            "y"
-                        ]
-                    }
+                    {"type": "random", "axes": ["y"]}
                 ]
             }
         },
         {
             "id": 39,
             "name": "BROWN_MUSHROOM",
-            "aabb": [
-                5,
-                0,
-                5,
-                11,
-                6,
-                11
-            ],
+            "aabb": [5, 0, 5, 11, 6, 11],
             "bb": {
                 "model": "brown_mushroom",
                 "rotate": [
@@ -867,23 +507,11 @@
         {
             "id": 40,
             "name": "RED_MUSHROOM",
-            "aabb": [
-                5,
-                0,
-                5,
-                11,
-                6,
-                11
-            ],
+            "aabb": [5, 0, 5, 11, 6, 11],
             "bb": {
                 "model": "red_mushroom",
                 "rotate": [
-                    {
-                        "type": "random",
-                        "axes": [
-                            "y"
-                        ]
-                    }
+                    {"type": "random", "axes": ["y"]}
                 ]
             }
         },
@@ -909,12 +537,7 @@
                 "model": "dead_bush",
                 "aabb_stylename": "planting",
                 "rotate": [
-                    {
-                        "type": "random",
-                        "axes": [
-                            "y"
-                        ]
-                    }
+                    {"type": "random", "axes": ["y"]}
                 ]
             }
         },
@@ -927,9 +550,7 @@
             ],
             "bb": {
                 "model": "crafting_table",
-                "rotate": {
-                    "type": "cardinal_direction"
-                }
+                "rotate": {"type": "cardinal_direction"}
             }
         },
         {
@@ -938,9 +559,7 @@
             "transparent": true,
             "bb": {
                 "model": "barrel",
-                "rotate": {
-                    "type": "three"
-                }
+                "rotate": {"type": "three"}
             }
         },
         {
@@ -949,43 +568,16 @@
             "transparent": true,
             "bb": {
                 "model": "furnace",
-                "rotate": {
-                    "type": "cardinal_direction"
-                },
+                "rotate": {"type": "cardinal_direction"},
                 "select_texture": [
-                    {
-                        "name": "furnace_lit",
-                        "when": {
-                            "extra_data.active": true
-                        }
-                    }
+                    {"name": "furnace_lit", "when": {"extra_data.active": true}}
                 ],
                 "particles": [
-                    {
-                        "when": {
-                            "extra_data.active": true
-                        },
-                        "list": [
-                            {
-                                "type": "torch_flame",
-                                "x": 0.35,
-                                "y": 0.01,
-                                "z": 0.75
-                            },
-                            {
-                                "type": "torch_flame",
-                                "x": 0.5,
-                                "y": 0.01,
-                                "z": 0.8
-                            },
-                            {
-                                "type": "torch_flame",
-                                "x": 0.65,
-                                "y": 0.01,
-                                "z": 0.75
-                            }
-                        ]
-                    }
+                    {"when": {"extra_data.active": true}, "list": [
+                        {"type": "torch_flame", "x": 0.35, "y": 0.01, "z": 0.75},
+                        {"type": "torch_flame", "x": 0.5, "y": 0.01, "z": 0.8},
+                        {"type": "torch_flame", "x": 0.65, "y": 0.01, "z": 0.75}
+                    ]}
                 ]
             }
         },
@@ -996,43 +588,16 @@
                 "model": "candle",
                 "aabb_stylename": "candle",
                 "set_state": [
-                    {
-                        "name": "1candle",
-                        "when": {
-                            "extra_data.candles": null
-                        }
-                    },
-                    {
-                        "name": "2candles",
-                        "when": {
-                            "extra_data.candles": 2
-                        }
-                    },
-                    {
-                        "name": "3candles",
-                        "when": {
-                            "extra_data.candles": 3
-                        }
-                    },
-                    {
-                        "name": "4candles",
-                        "when": {
-                            "extra_data.candles": 4
-                        }
-                    }
+                    {"name": "1candle", "when": {"extra_data.candles": null}},
+                    {"name": "2candles", "when": {"extra_data.candles": 2}},
+                    {"name": "3candles", "when": {"extra_data.candles": 3}},
+                    {"name": "4candles", "when": {"extra_data.candles": 4}}
                 ],
                 "select_texture": [
-                    {
-                        "name": "%block_name%"
-                    }
+                    {"name": "%block_name%"}
                 ],
                 "rotate": [
-                    {
-                        "type": "random",
-                        "axes": [
-                            "y"
-                        ]
-                    }
+                    {"type": "random", "axes": ["y"]}
                 ]
             }
         },
@@ -1155,81 +720,15 @@
                 "model": "rail",
                 "behavior": "rails",
                 "set_state": [
-                    {
-                        "name": "normal",
-                        "when": {
-                            "extra_data.shape": [
-                                null,
-                                0,
-                                1
-                            ]
-                        }
-                    },
-                    {
-                        "name": "inclined",
-                        "when": {
-                            "extra_data.shape": [
-                                2,
-                                3,
-                                4,
-                                5
-                            ]
-                        }
-                    },
-                    {
-                        "name": "turn",
-                        "when": {
-                            "extra_data.shape": [
-                                6,
-                                7,
-                                8,
-                                9
-                            ]
-                        }
-                    }
+                    {"name": "normal", "when": {"extra_data.shape": [null, 0, 1]}},
+                    {"name": "inclined", "when": {"extra_data.shape": [2, 3, 4, 5]}},
+                    {"name": "turn", "when": {"extra_data.shape": [6, 7, 8, 9]}}
                 ],
                 "rotate": [
-                    {
-                        "type": "fixed_cardinal_direction",
-                        "value": 0,
-                        "when": {
-                            "extra_data.shape": [
-                                5,
-                                8
-                            ]
-                        }
-                    },
-                    {
-                        "type": "fixed_cardinal_direction",
-                        "value": 1,
-                        "when": {
-                            "extra_data.shape": [
-                                1,
-                                2,
-                                7
-                            ]
-                        }
-                    },
-                    {
-                        "type": "fixed_cardinal_direction",
-                        "value": 2,
-                        "when": {
-                            "extra_data.shape": [
-                                4,
-                                6
-                            ]
-                        }
-                    },
-                    {
-                        "type": "fixed_cardinal_direction",
-                        "value": 3,
-                        "when": {
-                            "extra_data.shape": [
-                                3,
-                                9
-                            ]
-                        }
-                    }
+                    {"type": "fixed_cardinal_direction", "value": 0, "when": {"extra_data.shape": [5, 8]}},
+                    {"type": "fixed_cardinal_direction", "value": 1, "when": {"extra_data.shape": [1, 2, 7]}},
+                    {"type": "fixed_cardinal_direction", "value": 2, "when": {"extra_data.shape": [4, 6]}},
+                    {"type": "fixed_cardinal_direction", "value": 3, "when": {"extra_data.shape": [3, 9]}}
                 ]
             }
         },
@@ -1240,70 +739,14 @@
                 "model": "powered_rail",
                 "behavior": "rails",
                 "set_state": [
-                    {
-                        "name": "normal",
-                        "when": {
-                            "extra_data.shape": [
-                                null,
-                                0,
-                                1
-                            ]
-                        }
-                    },
-                    {
-                        "name": "inclined",
-                        "when": {
-                            "extra_data.shape": [
-                                2,
-                                3,
-                                4,
-                                5
-                            ]
-                        }
-                    }
+                    {"name": "normal", "when": {"extra_data.shape": [null, 0, 1]}},
+                    {"name": "inclined", "when": {"extra_data.shape": [2, 3, 4, 5]}}
                 ],
                 "rotate": [
-                    {
-                        "type": "fixed_cardinal_direction",
-                        "value": 1,
-                        "when": {
-                            "extra_data.shape": [
-                                1,
-                                2,
-                                7
-                            ]
-                        }
-                    },
-                    {
-                        "type": "fixed_cardinal_direction",
-                        "value": 0,
-                        "when": {
-                            "extra_data.shape": [
-                                5,
-                                8
-                            ]
-                        }
-                    },
-                    {
-                        "type": "fixed_cardinal_direction",
-                        "value": 2,
-                        "when": {
-                            "extra_data.shape": [
-                                4,
-                                6
-                            ]
-                        }
-                    },
-                    {
-                        "type": "fixed_cardinal_direction",
-                        "value": 3,
-                        "when": {
-                            "extra_data.shape": [
-                                3,
-                                9
-                            ]
-                        }
-                    }
+                    {"type": "fixed_cardinal_direction", "value": 1, "when": {"extra_data.shape": [1, 2, 7]}},
+                    {"type": "fixed_cardinal_direction", "value": 0, "when": {"extra_data.shape": [5, 8]}},
+                    {"type": "fixed_cardinal_direction", "value": 2, "when": {"extra_data.shape": [4, 6]}},
+                    {"type": "fixed_cardinal_direction", "value": 3, "when": {"extra_data.shape": [3, 9]}}
                 ]
             }
         },
@@ -1322,24 +765,13 @@
                 "model": "door",
                 "aabb_stylename": "door",
                 "set_state": [
-                    {
-                        "name": "_",
-                        "when": {
-                            "extra_data.is_head": true
-                        }
-                    },
-                    {
-                        "name": "%block_name%"
-                    }
+                    {"name": "_", "when": {"extra_data.is_head": true}},
+                    {"name": "%block_name%"}
                 ],
                 "select_texture": [
-                    {
-                        "name": "%block_name%"
-                    }
+                    {"name": "%block_name%"}
                 ],
-                "rotate": {
-                    "type": "cardinal_direction"
-                }
+                "rotate": {"type": "cardinal_direction"}
             }
         },
         {
@@ -1409,9 +841,7 @@
             "transparent": true,
             "bb": {
                 "model": "bee_nest",
-                "rotate": {
-                    "type": "cardinal_direction"
-                }
+                "rotate": {"type": "cardinal_direction"}
             }
         },
         {
@@ -1421,9 +851,7 @@
             "group": "doubleface_transparent",
             "bb": {
                 "model": "jukebox",
-                "rotate": {
-                    "type": "cardinal_direction"
-                }
+                "rotate": {"type": "cardinal_direction"}
             }
         },
         {
@@ -1431,9 +859,7 @@
             "name": "ENCHANTING_TABLE",
             "bb": {
                 "model": "enchanting_table",
-                "rotate": {
-                    "type": "cardinal_direction"
-                }
+                "rotate": {"type": "cardinal_direction"}
             }
         },
         {
@@ -1441,83 +867,30 @@
             "name": "LECTERN",
             "bb": {
                 "model": "lectern",
-                "rotate": {
-                    "type": "cardinal_direction"
-                }
+                "rotate": {"type": "cardinal_direction"}
             }
         },
         {
             "id": 911,
             "name": "BIRCH_FENCE_GATE",
             "inventory": {
-                "move": {
-                    "x": 0,
-                    "y": -0.15,
-                    "z": 0
-                }
+                "move": {"x": 0, "y": -0.15, "z": 0}
             },
             "bb": {
                 "model": "fence_gate",
                 "aabb_stylename": "fence_gate",
                 "rotate": [
-                    {
-                        "type": "fixed_cardinal_direction",
-                        "value": 3,
-                        "when": {
-                            "extra_data.facing": [
-                                "west"
-                            ]
-                        }
-                    },
-                    {
-                        "type": "fixed_cardinal_direction",
-                        "value": 2,
-                        "when": {
-                            "extra_data.facing": [
-                                "north"
-                            ]
-                        }
-                    },
-                    {
-                        "type": "fixed_cardinal_direction",
-                        "value": 1,
-                        "when": {
-                            "extra_data.facing": [
-                                "east"
-                            ]
-                        }
-                    },
-                    {
-                        "type": "fixed_cardinal_direction",
-                        "value": 0,
-                        "when": {
-                            "extra_data.facing": [
-                                "south"
-                            ]
-                        }
-                    }
+                    {"type": "fixed_cardinal_direction", "value": 3, "when": {"extra_data.facing": ["west"]}},
+                    {"type": "fixed_cardinal_direction", "value": 2, "when": {"extra_data.facing": ["north"]}},
+                    {"type": "fixed_cardinal_direction", "value": 1, "when": {"extra_data.facing": ["east"]}},
+                    {"type": "fixed_cardinal_direction", "value": 0, "when": {"extra_data.facing": ["south"]}}
                 ],
                 "set_state": [
-                    {
-                        "name": "close",
-                        "when": {
-                            "extra_data.opened": [
-                                false,
-                                null
-                            ]
-                        }
-                    },
-                    {
-                        "name": "open",
-                        "when": {
-                            "extra_data.opened": true
-                        }
-                    }
+                    {"name": "close", "when": {"extra_data.opened": [false, null]}},
+                    {"name": "open", "when": {"extra_data.opened": true}}
                 ],
                 "select_texture": [
-                    {
-                        "name": "%block_name%"
-                    }
+                    {"name": "%block_name%"}
                 ]
             }
         },
@@ -1525,11 +898,7 @@
             "id": 912,
             "name": "OAK_FENCE_GATE",
             "inventory": {
-                "move": {
-                    "x": 0,
-                    "y": -0.15,
-                    "z": 0
-                }
+                "move": {"x": 0, "y": -0.15, "z": 0}
             },
             "bb": {
                 "extends": "BIRCH_FENCE_GATE"
@@ -1539,11 +908,7 @@
             "id": 913,
             "name": "ACACIA_FENCE_GATE",
             "inventory": {
-                "move": {
-                    "x": 0,
-                    "y": -0.15,
-                    "z": 0
-                }
+                "move": {"x": 0, "y": -0.15, "z": 0}
             },
             "bb": {
                 "extends": "BIRCH_FENCE_GATE"
@@ -1553,11 +918,7 @@
             "id": 914,
             "name": "SPRUCE_FENCE_GATE",
             "inventory": {
-                "move": {
-                    "x": 0,
-                    "y": -0.15,
-                    "z": 0
-                }
+                "move": {"x": 0, "y": -0.15, "z": 0}
             },
             "bb": {
                 "extends": "BIRCH_FENCE_GATE"
@@ -1567,11 +928,7 @@
             "id": 915,
             "name": "DARK_OAK_FENCE_GATE",
             "inventory": {
-                "move": {
-                    "x": 0,
-                    "y": -0.15,
-                    "z": 0
-                }
+                "move": {"x": 0, "y": -0.15, "z": 0}
             },
             "bb": {
                 "extends": "BIRCH_FENCE_GATE"
@@ -1581,11 +938,7 @@
             "id": 916,
             "name": "JUNGLE_FENCE_GATE",
             "inventory": {
-                "move": {
-                    "x": 0,
-                    "y": -0.15,
-                    "z": 0
-                }
+                "move": {"x": 0, "y": -0.15, "z": 0}
             },
             "bb": {
                 "extends": "BIRCH_FENCE_GATE"
@@ -1595,11 +948,7 @@
             "id": 917,
             "name": "CRIMSON_FENCE_GATE",
             "inventory": {
-                "move": {
-                    "x": 0,
-                    "y": -0.15,
-                    "z": 0
-                }
+                "move": {"x": 0, "y": -0.15, "z": 0}
             },
             "bb": {
                 "extends": "BIRCH_FENCE_GATE"
@@ -1609,11 +958,7 @@
             "id": 918,
             "name": "WARPED_FENCE_GATE",
             "inventory": {
-                "move": {
-                    "x": 0,
-                    "y": -0.15,
-                    "z": 0
-                }
+                "move": {"x": 0, "y": -0.15, "z": 0}
             },
             "bb": {
                 "extends": "BIRCH_FENCE_GATE"
@@ -1623,11 +968,7 @@
             "id": 919,
             "name": "NETHER_BRICK_FENCE_GATE",
             "inventory": {
-                "move": {
-                    "x": 0,
-                    "y": -0.15,
-                    "z": 0
-                }
+                "move": {"x": 0, "y": -0.15, "z": 0}
             },
             "bb": {
                 "extends": "BIRCH_FENCE_GATE"
@@ -1643,17 +984,10 @@
                     "type": "cardinal_direction"
                 },
                 "set_state": [
-                    {
-                        "name": "_",
-                        "when": {
-                            "extra_data.is_head": true
-                        }
-                    }
+                    {"name": "_", "when": {"extra_data.is_head": true}}
                 ],
                 "select_texture": [
-                    {
-                        "name": "%block_name%"
-                    }
+                    {"name": "%block_name%"}
                 ]
             }
         },
@@ -1772,23 +1106,11 @@
                     "type": "ydeg"
                 },
                 "set_state": [
-                    {
-                        "name": "_",
-                        "when": {
-                            "extra_data.is_head": true
-                        }
-                    }
+                    {"name": "_", "when": {"extra_data.is_head": true}}
                 ],
                 "select_texture": [
-                    {
-                        "name": "%block_name%",
-                        "group": "chair"
-                    },
-                    {
-                        "name": "%extra_data.upholstery%",
-                        "group": "wool",
-                        "empty": "%block_name%"
-                    }
+                    {"name": "%block_name%", "group": "chair"},
+                    {"name": "%extra_data.upholstery%", "group": "wool", "empty": "%block_name%"}
                 ]
             }
         },
@@ -1837,15 +1159,8 @@
                     "type": "ydeg"
                 },
                 "select_texture": [
-                    {
-                        "name": "%block_name%",
-                        "group": "frame"
-                    },
-                    {
-                        "name": "%extra_data.upholstery%",
-                        "group": "wool",
-                        "empty": "%block_name%"
-                    }
+                    {"name": "%block_name%", "group": "frame"},
+                    {"name": "%extra_data.upholstery%", "group": "wool", "empty": "%block_name%"}
                 ]
             }
         },
@@ -1906,15 +1221,12 @@
                 "model": "cactus",
                 "aabb_stylename": "cactus",
                 "set_state": [
-                    {
-                        "name": "top",
+                    {"name": "top",
                         "when": {
                             "extra_data.into_pot": true
                         }
                     },
-                    {
-                        "name": "bottom"
-                    }
+                    {"name": "bottom"}
                 ]
             }
         },
@@ -1934,20 +1246,7 @@
             "bb": {
                 "model": "cake",
                 "set_state": [
-                    {
-                        "name": "%extra_data.pieces%",
-                        "when": {
-                            "extra_data.pieces": [
-                                1,
-                                2,
-                                3,
-                                4,
-                                5,
-                                6,
-                                7
-                            ]
-                        }
-                    }
+                    {"name": "%extra_data.pieces%", "when": {"extra_data.pieces": [1, 2, 3, 4, 5, 6, 7]}}
                 ]
             }
         },
@@ -1957,9 +1256,7 @@
             "bb": {
                 "model": "ender_chest",
                 "aabb_stylename": "chest",
-                "rotate": {
-                    "type": "cardinal_direction"
-                },
+                "rotate": {"type": "cardinal_direction"},
                 "animated": {
                     "name": "idle"
                 }
@@ -1971,9 +1268,7 @@
             "group": "doubleface_transparent",
             "bb": {
                 "model": "mob_spawn",
-                "rotate": {
-                    "type": "cardinal_direction"
-                }
+                "rotate": {"type": "cardinal_direction"}
             }
         },
         {
@@ -1982,9 +1277,7 @@
             "transparent": true,
             "bb": {
                 "model": "hay_block",
-                "rotate": {
-                    "type": "three"
-                }
+                "rotate": {"type": "three"}
             }
         },
         {
@@ -1996,12 +1289,7 @@
                     {"type": "random", "axes": ["y"]}
                 ],
                 "set_state": [
-                    {
-                        "name": "variant2",
-                        "_when": {
-                            "extra_data._": true
-                        }
-                    }
+                    {"name": "variant2", "_when": {"extra_data._": true}}
                 ]
             }
         },
@@ -2014,12 +1302,7 @@
                     {"type": "random", "axes": ["y"]}
                 ],
                 "set_state": [
-                    {
-                        "name": "variant2",
-                        "_when": {
-                            "extra_data._": true
-                        }
-                    }
+                    {"name": "variant2", "_when": {"extra_data._": true}}
                 ]
             }
         },
@@ -2032,12 +1315,7 @@
                     {"type": "random", "axes": ["y"]}
                 ],
                 "_set_state": [
-                    {
-                        "name": "variant2",
-                        "_when": {
-                            "extra_data._": true
-                        }
-                    }
+                    {"name": "variant2", "_when": {"extra_data._": true}}
                 ]
             }
         },
@@ -2046,44 +1324,27 @@
             "name": "CATTAIL",
             "inventory": {
                 "scale": 0.55,
-                "move": {
-                    "x": 0,
-                    "y": -1,
-                    "z": 0
-                }
+                "move": {"x": 0, "y": -1, "z": 0}
             },
             "bb": {
                 "model": "cattail",
                 "rotate": [
-                    {
-                        "type": "random",
-                        "axes": [
-                            "y"
-                        ]
-                    }
+                    {"type": "random", "axes": ["y"]}
                 ]
             }
+
         },
         {
             "id": 504,
             "name": "REED",
             "inventory": {
                 "scale": 0.55,
-                "move": {
-                    "x": 0,
-                    "y": -1,
-                    "z": 0
-                }
+                "move": {"x": 0, "y": -1, "z": 0}
             },
             "bb": {
                 "model": "reed",
                 "rotate": [
-                    {
-                        "type": "random",
-                        "axes": [
-                            "y"
-                        ]
-                    }
+                    {"type": "random", "axes": ["y"]}
                 ]
             }
         },
@@ -2093,23 +1354,11 @@
             "bb": {
                 "model": "sugar_cane",
                 "rotate": [
-                    {
-                        "type": "random",
-                        "axes": [
-                            "y"
-                        ]
-                    }
+                    {"type": "random", "axes": ["y"]}
                 ],
                 "set_state": [
-                    {
-                        "name": "top",
-                        "when": {
-                            "neighbour.up.material.name": "AIR"
-                        }
-                    },
-                    {
-                        "name": "base"
-                    }
+                    {"name": "top", "when": {"neighbour.up.material.name": "AIR"}},
+                    {"name": "base"}
                 ]
             },
             "tags": [
@@ -2136,9 +1385,7 @@
             "bb": {
                 "model": "tool/sword",
                 "select_texture": [
-                    {
-                        "name": "%block_name%"
-                    }
+                    {"name": "%block_name%"}
                 ]
             }
         },
@@ -2148,9 +1395,7 @@
             "bb": {
                 "model": "tool/stone_sword",
                 "select_texture": [
-                    {
-                        "name": "%block_name%"
-                    }
+                    {"name": "%block_name%"}
                 ]
             }
         },
@@ -2160,9 +1405,7 @@
             "bb": {
                 "model": "tool/sword",
                 "select_texture": [
-                    {
-                        "name": "%block_name%"
-                    }
+                    {"name": "%block_name%"}
                 ]
             }
         },
@@ -2172,9 +1415,7 @@
             "bb": {
                 "model": "tool/sword",
                 "select_texture": [
-                    {
-                        "name": "%block_name%"
-                    }
+                    {"name": "%block_name%"}
                 ]
             }
         },
@@ -2184,9 +1425,7 @@
             "bb": {
                 "model": "tool/sword",
                 "select_texture": [
-                    {
-                        "name": "%block_name%"
-                    }
+                    {"name": "%block_name%"}
                 ]
             }
         },
@@ -2196,9 +1435,7 @@
             "bb": {
                 "model": "tool/pickaxe",
                 "select_texture": [
-                    {
-                        "name": "%block_name%"
-                    }
+                    {"name": "%block_name%"}
                 ]
             }
         },
@@ -2208,9 +1445,7 @@
             "bb": {
                 "model": "tool/stone_pickaxe",
                 "select_texture": [
-                    {
-                        "name": "%block_name%"
-                    }
+                    {"name": "%block_name%"}
                 ]
             }
         },
@@ -2220,9 +1455,7 @@
             "bb": {
                 "model": "tool/pickaxe",
                 "select_texture": [
-                    {
-                        "name": "%block_name%"
-                    }
+                    {"name": "%block_name%"}
                 ]
             }
         },
@@ -2232,9 +1465,7 @@
             "bb": {
                 "model": "tool/pickaxe",
                 "select_texture": [
-                    {
-                        "name": "%block_name%"
-                    }
+                    {"name": "%block_name%"}
                 ]
             }
         },
@@ -2244,9 +1475,7 @@
             "bb": {
                 "model": "tool/industrial_pickaxe",
                 "select_texture": [
-                    {
-                        "name": "%block_name%"
-                    }
+                    {"name": "%block_name%"}
                 ]
             }
         },
@@ -2256,9 +1485,7 @@
             "bb": {
                 "model": "tool/pickaxe",
                 "select_texture": [
-                    {
-                        "name": "%block_name%"
-                    }
+                    {"name": "%block_name%"}
                 ]
             }
         },
@@ -2268,9 +1495,7 @@
             "bb": {
                 "model": "tool/shovel",
                 "select_texture": [
-                    {
-                        "name": "%block_name%"
-                    }
+                    {"name": "%block_name%"}
                 ]
             }
         },
@@ -2280,9 +1505,7 @@
             "bb": {
                 "model": "tool/stone_shovel",
                 "select_texture": [
-                    {
-                        "name": "%block_name%"
-                    }
+                    {"name": "%block_name%"}
                 ]
             }
         },
@@ -2292,9 +1515,7 @@
             "bb": {
                 "model": "tool/shovel",
                 "select_texture": [
-                    {
-                        "name": "%block_name%"
-                    }
+                    {"name": "%block_name%"}
                 ]
             }
         },
@@ -2304,9 +1525,7 @@
             "bb": {
                 "model": "tool/shovel",
                 "select_texture": [
-                    {
-                        "name": "%block_name%"
-                    }
+                    {"name": "%block_name%"}
                 ]
             }
         },
@@ -2316,9 +1535,7 @@
             "bb": {
                 "model": "tool/shovel",
                 "select_texture": [
-                    {
-                        "name": "%block_name%"
-                    }
+                    {"name": "%block_name%"}
                 ]
             }
         },
@@ -2328,9 +1545,7 @@
             "bb": {
                 "model": "tool/hoe",
                 "select_texture": [
-                    {
-                        "name": "%block_name%"
-                    }
+                    {"name": "%block_name%"}
                 ]
             }
         },
@@ -2340,9 +1555,7 @@
             "bb": {
                 "model": "tool/stone_hoe",
                 "select_texture": [
-                    {
-                        "name": "%block_name%"
-                    }
+                    {"name": "%block_name%"}
                 ]
             }
         },
@@ -2352,9 +1565,7 @@
             "bb": {
                 "model": "tool/hoe",
                 "select_texture": [
-                    {
-                        "name": "%block_name%"
-                    }
+                    {"name": "%block_name%"}
                 ]
             }
         },
@@ -2364,9 +1575,7 @@
             "bb": {
                 "model": "tool/hoe",
                 "select_texture": [
-                    {
-                        "name": "%block_name%"
-                    }
+                    {"name": "%block_name%"}
                 ]
             }
         },
@@ -2376,9 +1585,7 @@
             "bb": {
                 "model": "tool/hoe",
                 "select_texture": [
-                    {
-                        "name": "%block_name%"
-                    }
+                    {"name": "%block_name%"}
                 ]
             }
         },
@@ -2388,9 +1595,7 @@
             "bb": {
                 "model": "tool/axe",
                 "select_texture": [
-                    {
-                        "name": "%block_name%"
-                    }
+                    {"name": "%block_name%"}
                 ]
             }
         },
@@ -2400,9 +1605,7 @@
             "bb": {
                 "model": "tool/stone_axe",
                 "select_texture": [
-                    {
-                        "name": "%block_name%"
-                    }
+                    {"name": "%block_name%"}
                 ]
             }
         },
@@ -2412,9 +1615,7 @@
             "bb": {
                 "model": "tool/axe",
                 "select_texture": [
-                    {
-                        "name": "%block_name%"
-                    }
+                    {"name": "%block_name%"}
                 ]
             }
         },
@@ -2424,9 +1625,7 @@
             "bb": {
                 "model": "tool/axe",
                 "select_texture": [
-                    {
-                        "name": "%block_name%"
-                    }
+                    {"name": "%block_name%"}
                 ]
             }
         },
@@ -2436,9 +1635,7 @@
             "bb": {
                 "model": "tool/axe",
                 "select_texture": [
-                    {
-                        "name": "%block_name%"
-                    }
+                    {"name": "%block_name%"}
                 ]
             }
         },
@@ -2508,14 +1705,7 @@
             "mining_time": 0,
             "passable": 1,
             "sound": "madcraft:block.cloth",
-            "aabb": [
-                4,
-                0,
-                4,
-                12,
-                8,
-                12
-            ],
+            "aabb": [4, 0, 4, 12, 8, 12],
             "drop_item": [
                 {
                     "name": "CACTUS",
@@ -2533,26 +1723,10 @@
                 "model": "small_cactus",
                 "import_anyway": true,
                 "rotate": [
-                    {
-                        "type": "random",
-                        "axes": [
-                            "y"
-                        ]
-                    }
+                    {"type": "random", "axes": ["y"]}
                 ],
                 "set_state": [
-                    {
-                        "names": [
-                            "variant0",
-                            "variant1",
-                            "variant2",
-                            "variant3",
-                            "variant4",
-                            "variant5",
-                            "variant6",
-                            "variant7"
-                        ]
-                    }
+                    {"names": ["variant0", "variant1", "variant2", "variant3", "variant4", "variant5", "variant6", "variant7"]}
                 ]
             }
         },
@@ -2581,14 +1755,7 @@
                 "layering_move_to_down",
                 "no_drop_ao"
             ],
-            "aabb": [
-                4,
-                0,
-                4,
-                12,
-                8,
-                12
-            ],
+            "aabb": [4, 0, 4, 12, 8, 12],
             "bb": {
                 "model": "skull_desert",
                 "import_anyway": true,
@@ -2596,12 +1763,7 @@
                     "type": "ydeg"
                 },
                 "_rotate": [
-                    {
-                        "type": "random",
-                        "axes": [
-                            "y"
-                        ]
-                    }
+                    {"type": "random", "axes": ["y"]}
                 ]
             }
         },
@@ -2628,24 +1790,12 @@
                 "layering_move_to_down",
                 "no_drop_ao"
             ],
-            "aabb": [
-                0,
-                0,
-                0,
-                16,
-                2,
-                16
-            ],
+            "aabb": [0, 0, 0, 16, 2, 16],
             "bb": {
                 "model": "sanded_stones",
                 "import_anyway": true,
                 "rotate": [
-                    {
-                        "type": "random",
-                        "axes": [
-                            "y"
-                        ]
-                    }
+                    {"type": "random", "axes": ["y"]}
                 ]
             }
         },
@@ -2672,24 +1822,12 @@
                 "layering_move_to_down",
                 "no_drop_ao"
             ],
-            "aabb": [
-                4,
-                0,
-                4,
-                12,
-                8,
-                12
-            ],
+            "aabb": [4, 0, 4, 12, 8, 12],
             "bb": {
                 "model": "small_stones_desert",
                 "import_anyway": true,
                 "rotate": [
-                    {
-                        "type": "random",
-                        "axes": [
-                            "y"
-                        ]
-                    }
+                    {"type": "random", "axes": ["y"]}
                 ]
             }
         },
@@ -2708,34 +1846,15 @@
                 "layering_move_to_down",
                 "no_drop_ao"
             ],
-            "aabb": [
-                4,
-                0,
-                4,
-                12,
-                8,
-                12
-            ],
+            "aabb": [4, 0, 4, 12, 8, 12],
             "bb": {
                 "model": "pinecones",
                 "import_anyway": true,
                 "rotate": [
-                    {
-                        "type": "random",
-                        "axes": [
-                            "y"
-                        ]
-                    }
+                    {"type": "random", "axes": ["y"]}
                 ],
                 "set_state": [
-                    {
-                        "names": [
-                            "variant0",
-                            "variant1",
-                            "variant2",
-                            "variant3"
-                        ]
-                    }
+                    {"names": ["variant0", "variant1", "variant2", "variant3"]}
                 ]
             }
         },
@@ -2817,9 +1936,7 @@
             "bb": {
                 "model": "tool/industrial_shovel",
                 "select_texture": [
-                    {
-                        "name": "%block_name%"
-                    }
+                    {"name": "%block_name%"}
                 ]
             }
         },
@@ -2829,9 +1946,7 @@
             "bb": {
                 "model": "tool/industrial_hoe",
                 "select_texture": [
-                    {
-                        "name": "%block_name%"
-                    }
+                    {"name": "%block_name%"}
                 ]
             }
         },
@@ -2841,9 +1956,7 @@
             "bb": {
                 "model": "tool/industrial_axe",
                 "select_texture": [
-                    {
-                        "name": "%block_name%"
-                    }
+                    {"name": "%block_name%"}
                 ]
             }
         },
@@ -2853,9 +1966,7 @@
             "bb": {
                 "model": "tool/industrial_sword",
                 "select_texture": [
-                    {
-                        "name": "%block_name%"
-                    }
+                    {"name": "%block_name%"}
                 ]
             }
         },
@@ -2879,13 +1990,9 @@
             "bb": {
                 "model": "amethyst_cluster",
                 "aabb_stylename": "planting",
-                "rotate": {
-                    "type": "three"
-                },
+                "rotate": {"type": "three"},
                 "set_state": [
-                    {
-                        "name": "age4"
-                    }
+                    {"name": "age4"}
                 ]
             }
         },
@@ -2894,9 +2001,7 @@
             "name": "COGWHEEL",
             "bb": {
                 "model": "mechanism/cogwheel",
-                "rotate": {
-                    "type": "cog"
-                },
+                "rotate": {"type": "cog"},
                 "import_anyway": true
             }
         },
@@ -2905,28 +2010,14 @@
             "name": "WINDMILL_BEARING",
             "bb": {
                 "model": "mechanism/windmill_bearing",
-                "rotate": {
-                    "type": "six"
-                },
+                "rotate": {"type": "six"},
                 "import_anyway": true,
                 "set_state": [
-                    {
-                        "name": "base",
-                        "when": {
-                            "extra_data.in_mesh": true
-                        }
-                    },
-                    {
-                        "name": "table",
-                        "when": {
-                            "extra_data.invisible": false
-                        }
-                    }
+                    {"name": "base", "when": {"extra_data.in_mesh": true}},
+                    {"name": "table", "when": {"extra_data.invisible": false}}
                 ],
                 "select_texture": [
-                    {
-                        "name": "WINDMILL_BEARING"
-                    }
+                    {"name": "WINDMILL_BEARING"}
                 ]
             }
         },
@@ -2940,14 +2031,7 @@
         {
             "id": 117,
             "name": "BREWING_STAND",
-            "aabb": [
-                5,
-                0,
-                5,
-                11,
-                16,
-                11
-            ],
+            "aabb": [5, 0, 5, 11, 16, 11],
             "bb": {
                 "model": "brewing_stand"
             }
@@ -2958,14 +2042,10 @@
             "bb": {
                 "model": "armor/scrap_armor",
                 "set_state": [
-                    {
-                        "name": "preview/preview_chestplate"
-                    }
+                    {"name": "preview/preview_chestplate"}
                 ],
                 "select_texture": [
-                    {
-                        "name": "scrap_armor_gold"
-                    }
+                    {"name": "scrap_armor_gold"}
                 ]
             }
         },
@@ -2975,41 +2055,14 @@
             "bb": {
                 "model": "pointed_dripstone",
                 "set_state": [
-                    {
-                        "name": "base",
-                        "when": {
-                            "extra_data.base": true
-                        }
-                    },
-                    {
-                        "name": "frustum",
-                        "when": {
-                            "extra_data.frustum": true
-                        }
-                    },
-                    {
-                        "name": "middle",
-                        "when": {
-                            "extra_data.middle": true
-                        }
-                    },
-                    {
-                        "name": "tip_merge",
-                        "when": {
-                            "extra_data.merge": true
-                        }
-                    },
-                    {
-                        "name": "tip"
-                    }
+                    {"name": "base", "when": {"extra_data.base": true}},
+                    {"name": "frustum", "when": {"extra_data.frustum": true}},
+                    {"name": "middle", "when": {"extra_data.middle": true}},
+                    {"name": "tip_merge", "when": {"extra_data.merge": true}},
+                    {"name": "tip"}
                 ],
                 "rotate": [
-                    {
-                        "type": "flipx",
-                        "when": {
-                            "extra_data.up": true
-                        }
-                    }
+                    {"type": "flipx", "when": {"extra_data.up": true}}
                 ]
             }
         },
@@ -3018,22 +2071,10 @@
             "name": "LEVER",
             "bb": {
                 "model": "lever",
-                "rotate": {
-                    "type": "six"
-                },
+                "rotate": {"type": "six"},
                 "set_animation": [
-                    {
-                        "name": "on",
-                        "when": {
-                            "extra_data.powered": true
-                        }
-                    },
-                    {
-                        "name": "off",
-                        "when": {
-                            "extra_data.powered": false
-                        }
-                    }
+                    {"name": "on", "when": {"extra_data.powered": true}},
+                    {"name": "off", "when": {"extra_data.powered": false}}
                 ]
             }
         },
@@ -3051,41 +2092,16 @@
             "extra_data": {
                 "relindex": -1,
                 "calculated": [
-                    {
-                        "type": "random_item",
-                        "name": "texture",
-                        "items": [
-                            {
-                                "url": "/media/demo/banner1.png"
-                            },
-                            {
-                                "url": "/media/demo/banner2.png"
-                            },
-                            {
-                                "url": "/media/demo/banner3.png"
-                            }
-                        ]
-                    }
+                    {"type": "random_item", "name": "texture", "items": [{"url": "/media/demo/banner1.png"}, {"url": "/media/demo/banner2.png"}, {"url": "/media/demo/banner3.png"}]}
                 ]
             },
-            "multiblock": {
-                "x": -3,
-                "y": 0,
-                "z": 0,
-                "w": 7,
-                "h": 4,
-                "d": 1
-            },
+            "multiblock": {"x": -3, "y": 0, "z": 0, "w": 7, "h": 4, "d": 1},
             "bb": {
                 "import_anyway": true,
                 "behavior": "billboard",
-                "rotate": {
-                    "type": "cardinal_direction"
-                },
+                "rotate": {"type": "cardinal_direction"},
                 "set_state": [
-                    {
-                        "name": "default"
-                    }
+                    {"name": "default"}
                 ]
             },
             "window": "frmBillboard"
@@ -3102,22 +2118,8 @@
                 "invisible_for_cam",
                 "no_drop_ao"
             ],
-            "aabb": [
-                4,
-                0,
-                4,
-                12,
-                8,
-                12
-            ],
-            "multiblock": {
-                "x": 0,
-                "y": 0,
-                "z": 0,
-                "w": 1,
-                "h": 3,
-                "d": 1
-            },
+            "aabb": [4, 0, 4, 12, 8, 12],
+            "multiblock": {"x": 0, "y": 0, "z": 0, "w": 1, "h": 3, "d": 1},
             "light_power": {
                 "r": 80,
                 "g": 200,
@@ -3127,18 +2129,7 @@
             "extra_data": {
                 "relindex": -1,
                 "calculated": [
-                    {
-                        "type": "random_item",
-                        "name": "texture",
-                        "items": [
-                            {
-                                "url": "/media/demo/rollup1.png"
-                            },
-                            {
-                                "url": "/media/demo/rollup2.png"
-                            }
-                        ]
-                    }
+                    {"type": "random_item", "name": "texture", "items": [{"url": "/media/demo/rollup1.png"}, {"url": "/media/demo/rollup2.png"}]}
                 ]
             },
             "bb": {
@@ -3164,24 +2155,13 @@
             "extra_data": {
                 "relindex": -1
             },
-            "multiblock": {
-                "x": 0,
-                "y": 0,
-                "z": 0,
-                "w": 1,
-                "h": 1,
-                "d": 2
-            },
+            "multiblock": {"x": 0, "y": 0, "z": 0, "w": 1, "h": 1, "d": 2},
             "bb": {
                 "import_anyway": true,
                 "model": "roof2",
-                "rotate": {
-                    "type": "cardinal_direction"
-                },
+                "rotate": {"type": "cardinal_direction"},
                 "set_state": [
-                    {
-                        "name": "hor"
-                    }
+                    {"name": "hor"}
                 ]
             }
         },
@@ -3199,24 +2179,13 @@
             "extra_data": {
                 "relindex": -1
             },
-            "multiblock": {
-                "x": 0,
-                "y": 0,
-                "z": 0,
-                "w": 1,
-                "h": 2,
-                "d": 1
-            },
+            "multiblock": {"x": 0, "y": 0, "z": 0, "w": 1, "h": 2, "d": 1},
             "bb": {
                 "import_anyway": true,
                 "model": "roof2",
-                "rotate": {
-                    "type": "cardinal_direction"
-                },
+                "rotate": {"type": "cardinal_direction"},
                 "set_state": [
-                    {
-                        "name": "ver"
-                    }
+                    {"name": "ver"}
                 ]
             }
         },
@@ -3234,30 +2203,14 @@
             "bb": {
                 "model": "clay_shingles",
                 "import_anyway": true,
-                "rotate": {
-                    "type": "cardinal_direction"
-                },
+                "rotate": {"type": "cardinal_direction"},
                 "set_state": [
-                    {
-                        "name": "outer",
-                        "when": {
-                            "extra_data.outer": true
-                        }
-                    },
-                    {
-                        "name": "inner",
-                        "when": {
-                            "extra_data.inner": true
-                        }
-                    },
-                    {
-                        "name": "normal"
-                    }
+                    {"name": "outer", "when": {"extra_data.outer": true}},
+                    {"name": "inner", "when": {"extra_data.inner": true}},
+                    {"name": "normal"}
                 ],
                 "select_texture": [
-                    {
-                        "name": "%block_name%"
-                    }
+                    {"name": "%block_name%"}
                 ]
             }
         },
@@ -3305,30 +2258,14 @@
             "bb": {
                 "model": "thatch_roofing",
                 "import_anyway": true,
-                "rotate": {
-                    "type": "cardinal_direction"
-                },
+                "rotate": {"type": "cardinal_direction"},
                 "set_state": [
-                    {
-                        "name": "outer",
-                        "when": {
-                            "extra_data.outer": true
-                        }
-                    },
-                    {
-                        "name": "inner",
-                        "when": {
-                            "extra_data.inner": true
-                        }
-                    },
-                    {
-                        "name": "normal"
-                    }
+                    {"name": "outer", "when": {"extra_data.outer": true}},
+                    {"name": "inner", "when": {"extra_data.inner": true}},
+                    {"name": "normal"}
                 ],
                 "select_texture": [
-                    {
-                        "name": "%block_name%"
-                    }
+                    {"name": "%block_name%"}
                 ]
             }
         },
@@ -3355,14 +2292,7 @@
             "material": {
                 "id": "stone"
             },
-            "aabb": [
-                5,
-                0,
-                5,
-                11,
-                16,
-                11
-            ],
+            "aabb": [5, 0, 5, 11, 16, 11],
             "light_power": {
                 "r": 253,
                 "g": 200,
@@ -3374,9 +2304,7 @@
             ],
             "bb": {
                 "import_anyway": true,
-                "rotate": {
-                    "type": "cardinal_direction"
-                }
+                "rotate": {"type": "cardinal_direction"}
             }
         },
         {
@@ -3394,125 +2322,6 @@
                 "aabb_stylename": "wall"
             }
         },
-        {
-            "id": 1700,
-            "name": "ROBOT_MONITOR",
-            "can_rotate": true,
-            "transparent": true,
-            "material": {
-                "id": "stone"
-            },
-            "tags": [
-                "no_drop_ao"
-            ],
-            "aabb": [
-                4,
-                0,
-                4,
-                12,
-                8,
-                12
-            ],
-            "multiblock": {
-                "x": -1,
-                "y": 0,
-                "z": 0,
-                "w": 3,
-                "h": 4,
-                "d": 1
-            },
-            "extra_data": {
-                "relindex": -1,
-                "calculated": [
-                    {
-                        "type": "random_item",
-                        "name": "texture",
-                        "items": [
-                            {
-                                "url": "/media/demo/banner1.png"
-                            },
-                            {
-                                "url": "/media/demo/banner2.png"
-                            },
-                            {
-                                "url": "/media/demo/banner3.png"
-                            }
-                        ]
-                    }
-                ]
-            },
-            "bb": {
-                "import_anyway": true,
-                "rotate": {
-                    "type": "cardinal_direction"
-                },
-                "behavior": "billboard",
-                "animated": {
-                    "name": "idle"
-                }
-            }
-        },
-        {
-            "id": 1701,
-            "name": "ROBOT_STUDY",
-            "can_rotate": true,
-            "transparent": true,
-            "material": {
-                "id": "stone"
-            },
-            "tags": [
-                "no_drop_ao"
-            ],
-            "aabb": [
-                4,
-                0,
-                4,
-                12,
-                8,
-                12
-            ],
-            "multiblock": {
-                "x": 0,
-                "y": 0,
-                "z": 0,
-                "w": 2,
-                "h": 2,
-                "d": 1
-            },
-            "extra_data": {
-                "relindex": -1,
-                "calculated": [
-                    {
-                        "type": "random_item",
-                        "name": "texture",
-                        "items": [
-                            {
-                                "url": "/media/demo/banner1.png"
-                            },
-                            {
-                                "url": "/media/demo/banner2.png"
-                            },
-                            {
-                                "url": "/media/demo/banner3.png"
-                            }
-                        ]
-                    }
-                ]
-            },
-            "bb": {
-                "import_anyway": true,
-                "rotate": {
-                    "type": "cardinal_direction"
-                },
-                "behavior": "billboard",
-                "animated": {
-                    "name": "idle"
-                }
-            }
-        },
-
-
-
 
 
         {
@@ -3788,6 +2597,118 @@
             "bb": {
                 "extends": "LETTER"  
             }
-        } 
+        },
+
+
+
+
+        {
+            "id": 4101,
+            "name": "ROBOT_MONITOR",
+            "can_rotate": true,
+            "transparent": true,
+            "material": {
+                "id": "stone"
+            },
+            "tags": [
+                "no_drop_ao"
+            ],
+            "aabb": [
+                4,
+                0,
+                4,
+                12,
+                8,
+                12
+            ],
+            "multiblock": {
+                "x": -1,
+                "y": 0,
+                "z": 0,
+                "w": 3,
+                "h": 4,
+                "d": 1
+            },
+            "extra_data": {
+                "relindex": -1,
+                "calculated": [
+                    {
+                        "type": "random_item",
+                        "name": "texture",
+                        "items": [
+                            { "url": "/media/demo/banner1.png" },
+                            { "url": "/media/demo/banner2.png" },
+                            { "url": "/media/demo/banner3.png" }
+                        ]
+                    }
+                ]
+            },
+            "bb": {
+                "import_anyway": true,
+                "rotate": {
+                    "type": "cardinal_direction"
+                },
+                "behavior": "billboard",
+                "animated": {
+                    "name": "idle"
+                }
+            },
+            "window": "frmBillboard"
+        },
+
+
+        {
+            "id": 4102,
+            "name": "ROBOT_STUDY",
+            "can_rotate": true,
+            "transparent": true,
+            "material": {
+                "id": "stone"
+            },
+            "tags": [
+                "no_drop_ao"
+            ],
+            "aabb": [
+                4,
+                0,
+                4,
+                12,
+                8,
+                12
+            ],
+            "multiblock": {
+                "x": 0,
+                "y": 0,
+                "z": 0,
+                "w": 2,
+                "h": 2,
+                "d": 1
+            },
+            "extra_data": {
+                "relindex": -1,
+                "calculated": [
+                    {
+                        "type": "random_item",
+                        "name": "texture",
+                        "items": [
+                            { "url": "/media/demo/banner1.png" },
+                            { "url": "/media/demo/banner2.png" },
+                            { "url": "/media/demo/banner3.png" }
+                        ]
+                    }
+                ]
+            },
+            "bb": {
+                "import_anyway": true,
+                "rotate": {
+                    "type": "cardinal_direction"
+                },
+                "behavior": "billboard",
+                "animated": {
+                    "name": "idle"
+                }
+            },
+            "window": "frmBillboard"
+        }
     ]
 }
