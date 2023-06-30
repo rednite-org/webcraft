@@ -6,5 +6,6 @@ services:
     build: .
     volumes:
       - ./storage:/app/webcraft/storage
+      - ./www/upload:/app/webcraft/www/upload
     ports:
       - 5700:5700
