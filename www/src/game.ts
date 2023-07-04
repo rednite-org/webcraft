@@ -74,14 +74,14 @@ export class GameSettings implements TWorldSettings {
     render_distance:         int = DEFAULT_RENDER_DISTANCE
     base_ambient_light_level:float = 100
     // quality
-    use_light:               int = LIGHT_TYPE.SMOOTH
+    use_light:               int = LIGHT_TYPE.NO
     chunk_geometry_mode    = CHUNK_GEOMETRY_MODE.AUTO
     chunk_geometry_alloc   = CHUNK_GEOMETRY_ALLOC.AUTO
-    beautiful_leaves:        boolean = true
-    leaf_fall:               boolean = true
-    draw_improved_blocks:    boolean = true
-    overlay_textures:        boolean = true
-    mipmap:                  boolean = true
+    beautiful_leaves:        boolean = false
+    leaf_fall:               boolean = false
+    draw_improved_blocks:    boolean = false
+    overlay_textures:        boolean = false
+    mipmap:                  boolean = false
     // grids
     mobs_draw_debug_grid:    boolean = false
     chunks_draw_debug_grid:  boolean = false
