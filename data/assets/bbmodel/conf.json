@@ -2709,6 +2709,22 @@
                 }
             },
             "window": "frmBillboard"
+        },
+
+        {
+            "id": 4201,
+            "name": "TENT",
+            "transparent": true,
+            "material": {
+                "id": "stone"
+            },
+            "bb": {
+                "model": "custom/tent",
+                "import_anyway": true,
+                "select_texture": [
+                    {"name": "%block_name%"}
+                ]
+            }
         }
     ]
 }
